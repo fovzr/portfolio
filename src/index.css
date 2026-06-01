@@ -479,3 +479,56 @@ a {
     padding: 80px 8%;
   }
 }
+
+.brandCard {
+  width: 290px;
+}
+
+.brandBadge {
+  width: 82px;
+  height: 82px;
+  margin: 0 auto -24px;
+  border-radius: 28px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(
+    145deg,
+    rgba(255,255,255,0.26),
+    rgba(255,255,255,0.06)
+  );
+  border: 1px solid rgba(255,255,255,0.22);
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  box-shadow: 0 22px 70px rgba(0,0,0,0.45);
+  backdrop-filter: blur(20px);
+}
+
+.brandCard .productBody {
+  min-height: 340px;
+  border-radius: 44px;
+}
+
+.brandCard .productBody h3 {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.brandTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.brandTags span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.86);
+  font-size: 0.76rem;
+  font-weight: 800;
+}

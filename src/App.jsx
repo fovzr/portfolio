@@ -15,18 +15,20 @@ function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <p className="eyebrow">Computer Engineering Graduate</p>
+          <div className="heroContent">
+            <p className="eyebrow">Computer Engineering Graduate</p>
 
-          <h1>
-            Designing technology with purpose.
-            <span> Engineering solutions with impact.</span>
-          </h1>
+            <h1>
+              Designing technology with purpose.
+              <span> Engineering solutions with impact.</span>
+            </h1>
 
-          <p className="heroText">
-            I’m Fouz Al-Rashed, a Computer Engineering graduate creating smart
-            systems, AI-powered platforms, IoT solutions, and digital products
-            that turn ideas into meaningful experiences.
-          </p>
+            <p className="heroText">
+              I’m Fouz Al-Rashed, a Computer Engineering graduate creating smart
+              systems, AI-powered platforms, IoT solutions, and digital products
+              that turn ideas into meaningful experiences.
+            </p>
+          </div>
 
           <motion.div
             className="heroShowcase"
@@ -38,13 +40,21 @@ function App() {
             <div className="orbit orbitOne"></div>
             <div className="orbit orbitTwo"></div>
 
-            <div className="productStage">
-              <div className="productTop"></div>
+            <div className="productStage brandCard">
+              <div className="brandBadge">FA</div>
+
               <div className="productBody">
                 <span className="statusDot"></span>
-                <p>SMART SYSTEM ONLINE</p>
-                <h3>UNIQUESRA</h3>
-                <small>IoT • Robotics • Safety • Culture</small>
+                <p>PORTFOLIO PROFILE</p>
+                <h3>Fouz Al-Rashed</h3>
+                <small>Computer Engineer</small>
+
+                <div className="brandTags">
+                  <span>AI</span>
+                  <span>IoT</span>
+                  <span>Robotics</span>
+                  <span>Software</span>
+                </div>
               </div>
             </div>
           </motion.div>
