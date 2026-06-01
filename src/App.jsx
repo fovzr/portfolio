@@ -41,7 +41,7 @@ function App() {
             <div className="orbit orbitTwo"></div>
 
             <div className="productStage brandCard">
-              <div className="brandBadge">FA</div>
+              <div className="brandBadge">FR</div>
 
               <div className="productBody">
                 <span className="statusDot"></span>
